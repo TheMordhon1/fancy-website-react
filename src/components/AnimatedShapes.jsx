@@ -9,6 +9,7 @@ const Square = styled.div`
   top: -60px;
   left: -60px;
   z-index: -1;
+  overflow: hidden;
   animation: square 11s linear alternate infinite;
 
   @keyframes square {
@@ -28,6 +29,7 @@ const Circle = styled.div`
   top: 200px;
   left: -100px;
   z-index: -1;
+  overflow: hidden;
   animation: circle 18s linear alternate infinite;
 
   @keyframes circle {
@@ -46,6 +48,7 @@ const Rect = styled.div`
   top: 400px;
   left: -100px;
   z-index: -1;
+  overflow: hidden;
   animation: rect 15s linear alternate infinite;
 
   @keyframes rect {
